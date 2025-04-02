@@ -9,24 +9,24 @@ Each MoCap Room has a KVM that allows a user to control the MoCap computer remot
 
 ## OceanWalk
 License: Motive Tracker
-Hostname - SRC-KVM-HRI.stanford.edu
+Public Domain: SRC-KVM-HRI.stanford.edu
 
 ## Dance Studio
 License: Motive Unlimited
-Hostname - SRC-KVM-Dance.stanford.edu
+Public Domain: SRC-KVM-Dance.stanford.edu
 
 ## Domestic Suite
 License: Motive Tracker
-Hostname - SRC-KVM-Domestic.stanford.edu
+Public Domain: SRC-KVM-Domestic.stanford.edu
 
 ## Kitchen
 License: Motive Tracker
-Hostname - SRC-KVM-Kitchen.stanford.edu
+Public Domain: SRC-KVM-Kitchen.stanford.edu
 
 ## Field & Construction
 License: Motive Unlimited
-Hostname - SRC-KVM-Fieldbay.stanford.edu
+Public Domain: SRC-KVM-Fieldbay.stanford.edu
 
 ## Logistics & Manufacturing
 License: Motive Tracker
-Hostname - SRC-KVM-Warehouse.stanford.edu
+Public Domain: SRC-KVM-Warehouse.stanford.edu
