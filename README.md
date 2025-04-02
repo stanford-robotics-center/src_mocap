@@ -8,25 +8,25 @@ Login/Auth for SRC MoCap Computers: Please ask SRC staff for login / authorizati
 Each MoCap Room has a KVM that allows a user to control the MoCap computer remotely via web interface if connected to the network. To connect to 
 
 ## OceanWalk
-License: Motive Tracker
+License: Motive Tracker\
 Public Domain: SRC-KVM-HRI.stanford.edu
 
 ## Dance Studio
-License: Motive Unlimited
+License: Motive Unlimited\
 Public Domain: SRC-KVM-Dance.stanford.edu
 
 ## Domestic Suite
-License: Motive Tracker
+License: Motive Tracker\
 Public Domain: SRC-KVM-Domestic.stanford.edu
 
 ## Kitchen
-License: Motive Tracker
+License: Motive Tracker\
 Public Domain: SRC-KVM-Kitchen.stanford.edu
 
 ## Field & Construction
-License: Motive Unlimited
+License: Motive Unlimited\
 Public Domain: SRC-KVM-Fieldbay.stanford.edu
 
 ## Logistics & Manufacturing
-License: Motive Tracker
+License: Motive Tracker\
 Public Domain: SRC-KVM-Warehouse.stanford.edu
