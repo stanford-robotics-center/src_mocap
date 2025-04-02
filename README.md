@@ -10,6 +10,8 @@ Each MoCap Room has a KVM that allows a user to control the MoCap computer remot
 ![pic](/images/tiny_pilot.png "Tiny Pilot")
 
 Open the ```Motive``` application to access the MoCap system.
+![pic](/images/motive_1.png "Motive 1")
+
 ## OceanWalk
 License: Motive Tracker\
 Public Domain: SRC-KVM-HRI.stanford.edu
