@@ -21,7 +21,8 @@ Note that the above only works if the device is registered with Stanford.
 Definition of MAC address:
 ```
 A MAC address is a unique 12-digit hexadecimal number that identifies a network interface controller (NIC) for communication on a computer network.
-It's typically represented in the format XX:XX:XX:XX:XX:XX or XX-XX-XX-XX-XX-XX, where XX represents a two-digit hexadecimal number. For example, a MAC address might look like 00:1A:2B:3C:4D:5E or 00-1A-2B-3C-4D-5E
+It's typically represented in the format XX:XX:XX:XX:XX:XX or XX-XX-XX-XX-XX-XX, where XX represents a two-digit hexadecimal number.
+For example, a MAC address might look like 00:1A:2B:3C:4D:5E or 00-1A-2B-3C-4D-5E
 ```
 To obtain your wifi MAC address, one can go into Network settings and go into Details to find their wifi MAC address. For example, for Apple devices, click ```Settings```, click ```Details``` and there should be an associated MAC address. Please make sure to turn off ```Rotating``` on Private Wifi address since assigning a static IP requires a static MAC address.
 
