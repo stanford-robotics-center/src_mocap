@@ -15,6 +15,8 @@ Open the ```Motive``` application to access the MoCap system.
 ## Steaming data
 Ideally, it is best to stream data over the ```SRC``` network instead of directly connecting via ethernet to Optitrack computers to avoid others from losing the ability to stream data. It would be best to send a Wifi MAC address for your laptop/device that would like to stream Optitrack data to Zen. We can then request the network manager in EE to assign static IP addresses for your devices to be on ```SRC``` network. 
 
+Note that the above only works if the device is registered with Stanford.
+
 ## OceanWalk
 License: Motive Tracker\
 Public Domain: SRC-KVM-HRI.stanford.edu
