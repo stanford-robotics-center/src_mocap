@@ -28,6 +28,9 @@ To obtain your wifi MAC address, one can go into Network settings and go into De
 
 One can also find their wifi MAC address by running ```ifconfig``` in a terminal and knowing which network interface matches wifi.
 
+### Setting up Sample Client
+To stream data to a sample client, download the NatNet 4.3 SDK from Optitrack: [Link to Ubuntu / Fedora / Windows](https://optitrack.com/support/downloads/developer-tools.html)
+
 ## OceanWalk
 License: Motive Tracker\
 Public Domain: SRC-KVM-HRI.stanford.edu
