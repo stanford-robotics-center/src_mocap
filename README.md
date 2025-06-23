@@ -52,6 +52,8 @@ Once your device is assigned a static IP, one should be able to stream data from
 License: Motive Tracker\
 Public Domain: SRC-KVM-Domestic.stanford.edu
 
+For the domestic suite, the Optitrack IP address you would like to stream over would be ```172.24.69.66``` if the ethernet cable is connected correctly to the switch. The correct settings for this configuration should have the Optitrack computer with wifi turned off and ```Ethernet 2``` (i.e. the network adapter) set to DHCP.
+
 ## Kitchen
 License: Motive Tracker\
 Public Domain: SRC-KVM-Kitchen.stanford.edu
