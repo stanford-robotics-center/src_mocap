@@ -31,7 +31,7 @@ One can also find their wifi MAC address by running ```ifconfig``` in a terminal
 ### Setting up a Sample Client
 To stream data to a sample client, download the NatNet 4.3 SDK from Optitrack: [Link to Ubuntu / Fedora / Windows](https://optitrack.com/support/downloads/developer-tools.html)
 
-For Ubuntu Linux, once installed, set the environment variable ```LD_LIBRARY_PATH``` by running ```export LD_LIBRARY_PATH=~/Downloads/NatNet_SDK_4.3_ubuntu/lib/```, while making sure that is the correct file path to the ```NatNet_SDK_4.3_ubuntu/lib/``` directory. Then navigate to the ```NatNet_SDK_4.3_ubuntu/samples/SampleClient/build``` directory and run the Sample Client: ```./SampleClient```. If the computer is connected to SRC wifi, there should be available IP addreses to stream from:
+For Ubuntu Linux, once installed, set the environment variable ```LD_LIBRARY_PATH``` by running ```export LD_LIBRARY_PATH=~/Downloads/NatNet_SDK_4.3_ubuntu/lib/```, while making sure that is the correct file path to the ```NatNet_SDK_4.3_ubuntu/lib/``` directory. Then navigate to the ```NatNet_SDK_4.3_ubuntu/samples/SampleClient/build``` directory and run the Sample Client: ```./SampleClient```. If the computer is connected to SRC wifi and one has enabled streaming on Motive, there should be available IP addreses to stream from:
 ![pic](/images/sampleclientstream1.png "SampleClient Stream")
 
 One can select the correct stream by pressing the corresponding key/number in brackets next to the corresponding IP address to stream from.
