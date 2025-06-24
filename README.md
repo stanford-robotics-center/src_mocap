@@ -34,7 +34,7 @@ To stream data to a sample client, download the NatNet 4.3 SDK from Optitrack: [
 For Ubuntu Linux, once installed, set the environment variable ```LD_LIBRARY_PATH``` by running ```export LD_LIBRARY_PATH=~/Downloads/NatNet_SDK_4.3_ubuntu/lib/```, while making sure that is the correct file path to the ```NatNet_SDK_4.3_ubuntu/lib/``` directory. Then navigate to the ```NatNet_SDK_4.3_ubuntu/samples/SampleClient/build``` directory and run the Sample Client: ```./SampleClient```. If the computer is connected to SRC wifi and one has [enabled streaming on Motive](https://docs.optitrack.com/motive/data-streaming#streaming-settings), there should be available IP addreses to stream from:
 ![pic](/images/sampleclientstream1.png "SampleClient Stream")
 
-One can select the correct stream by pressing the corresponding key/number in brackets next to the corresponding IP address to stream from.
+One can select the correct stream by pressing the corresponding key/number in brackets next to the corresponding IP address to stream from. Note: Apparently Linux SDK is the fastest performing, followed by Windows and then the python API used for Mac.
 
 ## OceanWalk
 License: Motive Tracker\
