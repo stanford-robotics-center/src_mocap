@@ -28,10 +28,14 @@ To obtain your wifi MAC address, one can go into Network settings and go into De
 
 One can also find their wifi MAC address by running ```ifconfig``` in a terminal and knowing which network interface matches wifi.
 
-### Setting up a Sample Client
+### Setting up a Sample Client or Python Client
 To stream data to a sample client, download the NatNet 4.3 SDK from Optitrack: [Link to Ubuntu / Fedora / Windows](https://optitrack.com/support/downloads/developer-tools.html)
 
-For Ubuntu Linux, once installed, set the environment variable ```LD_LIBRARY_PATH``` by running ```export LD_LIBRARY_PATH=~/Downloads/NatNet_SDK_4.3_ubuntu/lib/```, while making sure that is the correct file path to the ```NatNet_SDK_4.3_ubuntu/lib/``` directory. Then navigate to the ```NatNet_SDK_4.3_ubuntu/samples/SampleClient/build``` directory and run the Sample Client: ```./SampleClient```. If the computer is connected to SRC wifi and one has [enabled streaming on Motive](https://docs.optitrack.com/motive/data-streaming#streaming-settings), there should be available IP addreses to stream from:
+For Ubuntu Linux, once installed, set the environment variable ```LD_LIBRARY_PATH``` by running ```export LD_LIBRARY_PATH=~/Downloads/NatNet_SDK_4.3_ubuntu/lib/```, while making sure that is the correct file path to the ```NatNet_SDK_4.3_ubuntu/lib/``` directory. Then navigate to the ```NatNet_SDK_4.3_ubuntu/samples/SampleClient/build``` directory and run the Sample Client: ```./SampleClient``` for the CPP package. 
+
+One can also use the Python Client package by navigating to the ```NatNet_SDK_4.3_ubuntu/samples/PythonClient``` directory and run ```python3 PythonSample.py```. This should prompt for a Client and Server IP address. The client IP should be the static IP address assigned to the device for the SRC network and the server IP address should correspond to the IP address streaming on MoCap interface.
+
+If the computer is connected to SRC wifi and one has [enabled streaming on Motive](https://docs.optitrack.com/motive/data-streaming#streaming-settings), there should be available IP addreses to stream from:
 ![pic](/images/sampleclientstream1.png "SampleClient Stream")
 
 One can select the correct stream by pressing the corresponding key/number in brackets next to the corresponding IP address to stream from. Note: Apparently Linux SDK is the fastest performing, followed by Windows and then the python API used for Mac.
