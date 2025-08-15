@@ -40,10 +40,10 @@ If the computer is connected to SRC wifi and one has [enabled streaming on Motiv
 
 One can select the correct stream by pressing the corresponding key/number in brackets next to the corresponding IP address to stream from. Note: Apparently Linux SDK is the fastest performing, followed by Windows and then the python API used for Mac.
 
-### Setting up ROS2 VPRN MoCap
+### Setting up ROS2 VRPN MoCap
 Follow the instructions listed below for ROS2 VPRN MoCap: [vrpn_mocap](https://github.com/alvinsunyixiao/vrpn_mocap)
-Make sure that NatNet has streaming ```enabled```, the transmision type is ```Multicast```, and VPRN streaming is ```enabled```. Make note of the server IP address and port number in Optitrack: 
-![pic](/images/vprn_image.png "VPRN Enabled Streaming")
+Make sure that NatNet has streaming ```enabled```, the transmision type is ```Multicast```, and VRPN streaming is ```enabled```. Make note of the server IP address and port number in Optitrack: 
+![pic](/images/vrpn_image.png "VPRN Enabled Streaming")
 
 
 
