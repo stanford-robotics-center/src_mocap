@@ -15,7 +15,7 @@ Open the ```Motive``` application to access the MoCap system.
 ## Steaming data
 Ideally, it is best to stream data over the ```SRC``` network instead of directly connecting via ethernet to Optitrack computers to avoid others from losing the ability to stream data. It would be best to send a Wifi MAC address for your laptop/device that would like to stream Optitrack data to Zen. We can then request the network manager in EE to assign static IP addresses for your devices to be on ```SRC``` network. Note that the device needs to be on ```SRC``` network in order to receive streaming data.
 
-There are also multiple options to stream Optitrack data. Listed here are instructions for NatNetSDK and ROS2 VRPN.
+There are also multiple options to stream Optitrack data. Listed here are instructions for [NatNetSDK](#setting-up-a-sample-client-or-python-client-with-natnetsdk) and [ROS2 VRPN](#setting-up-ros2-vrpn-mocap).
 
 Note that the above only works if the device is registered with Stanford.
 
