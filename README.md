@@ -49,7 +49,9 @@ Make sure that NatNet has streaming ```enabled```, the transmision type is ```Mu
 
 ![pic](/images/vrpn_image.png "VRPN Enabled Streaming")
 
-
+Note that when you run 
+```ros2 launch vrpn_mocap client.launch.yaml server:=<server ip> port:=<port>```
+and get a ```VRPN Connection Bad``` message, likely one will need to install netbase with ```sudo apt update; sudo apt install netbase``` as listed in the Github issues here: [link](https://github.com/alvinsunyixiao/vrpn_mocap/issues/5)
 
 ## OceanWalk
 License: Motive Tracker\
