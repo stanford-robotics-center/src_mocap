@@ -80,7 +80,9 @@ Once your device is assigned a static IP, one should be able to stream data from
 License: Motive Unlimited\
 Public Domain: SRC-KVM-Fieldbay.stanford.edu
 
-For the field bay, the Optitrack IP address you would like to stream over would be ```172.24.68.77``` if the ethernet cable is connected correctly to the switch.
+For the field bay, the Optitrack IP address you would like to stream over would be ```172.24.68.77``` if the ethernet cable is connected correctly to the switch. The correct settings for this configuration should have the Optitrack computer with wifi turned off and ```Ethernet 2``` (i.e. the network adapter) set to DHCP.
+
+Once your device is assigned a static IP, one should be able to stream data from the Optitrack computer at ```172.24.68.77``` when connected to the ```SRC``` network.
 
 ## Logistics & Manufacturing
 License: Motive Tracker\
