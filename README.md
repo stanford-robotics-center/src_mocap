@@ -28,7 +28,7 @@ To obtain your wifi MAC address, one can go into Network settings and go into De
 
 One can also find their wifi MAC address by running ```ifconfig``` in a terminal and knowing which network interface matches wifi.
 
-### Setting up a Sample Client or Python Client
+### Setting up a Sample Client or Python Client with NatNetSDK
 To stream data to a sample client, download the NatNet 4.3 SDK from Optitrack: [Link to Ubuntu / Fedora / Windows](https://optitrack.com/support/downloads/developer-tools.html)
 
 For Ubuntu Linux, once installed, set the environment variable ```LD_LIBRARY_PATH``` by running ```export LD_LIBRARY_PATH=~/Downloads/NatNet_SDK_4.3_ubuntu/lib/```, while making sure that is the correct file path to the ```NatNet_SDK_4.3_ubuntu/lib/``` directory. Then navigate to the ```NatNet_SDK_4.3_ubuntu/samples/SampleClient/build``` directory and run the Sample Client: ```./SampleClient``` for the CPP package. 
@@ -39,6 +39,13 @@ If the computer is connected to SRC wifi and one has [enabled streaming on Motiv
 ![pic](/images/sampleclientstream1.png "SampleClient Stream")
 
 One can select the correct stream by pressing the corresponding key/number in brackets next to the corresponding IP address to stream from. Note: Apparently Linux SDK is the fastest performing, followed by Windows and then the python API used for Mac.
+
+### Setting up ROS2 VPRN MoCap
+Follow the instructions listed below for ROS2 VPRN MoCap: [vrpn_mocap](https://github.com/alvinsunyixiao/vrpn_mocap)
+Make sure that NatNet has streaming ```enabled```, the transmision type is ```Multicast```, and VPRN streaming is ```enabled```. Make note of the server IP address and port number in Optitrack: 
+![pic](/images/vprn_image.png "VPRN Enabled Streaming")
+
+
 
 ## OceanWalk
 License: Motive Tracker\
