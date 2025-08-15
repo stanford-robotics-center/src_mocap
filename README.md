@@ -43,7 +43,7 @@ One can select the correct stream by pressing the corresponding key/number in br
 ### Setting up ROS2 VRPN MoCap
 Follow the instructions listed below for ROS2 VPRN MoCap: [vrpn_mocap](https://github.com/alvinsunyixiao/vrpn_mocap)
 
-Make sure that NatNet has streaming ```enabled```, the transmision type is ```Multicast```, and VRPN streaming is ```enabled```. Make note of the server IP address and port number in Optitrack: 
+Make sure that NatNet has streaming ```enabled```, the transmision type is ```Multicast```, and VRPN streaming is ```enabled```. Make note of the server IP address and ```Broadcast port``` number in Optitrack: 
 
 ![pic](/images/vrpn_image.png "VPRN Enabled Streaming")
 
@@ -85,3 +85,7 @@ For the field bay, the Optitrack IP address you would like to stream over would 
 ## Logistics & Manufacturing
 License: Motive Tracker\
 Public Domain: SRC-KVM-Warehouse.stanford.edu
+
+For Logistics & Manufacturing, the Optitrack IP address you would like to stream over would be ```172.24.69.108``` if the ethernet cable is connected correctly to the switch. The correct settings for this configuration should have the Optitrack computer with wifi turned off and ```Ethernet 2``` (i.e. the network adapter) set to DHCP.
+
+Once your device is assigned a static IP, one should be able to stream data from the Optitrack computer at ```172.24.69.108``` when connected to the ```SRC``` network.
