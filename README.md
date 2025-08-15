@@ -42,6 +42,7 @@ One can select the correct stream by pressing the corresponding key/number in br
 
 ### Setting up ROS2 VRPN MoCap
 Follow the instructions listed below for ROS2 VPRN MoCap: [vrpn_mocap](https://github.com/alvinsunyixiao/vrpn_mocap)
+
 Make sure that NatNet has streaming ```enabled```, the transmision type is ```Multicast```, and VRPN streaming is ```enabled```. Make note of the server IP address and port number in Optitrack: 
 ![pic](/images/vrpn_image.png "VPRN Enabled Streaming")
 
