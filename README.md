@@ -28,7 +28,7 @@ For example, a MAC address might look like 00:1A:2B:3C:4D:5E or 00-1A-2B-3C-4D-5
 ```
 To obtain your wifi MAC address, one can go into Network settings and go into Details to find their wifi MAC address. For example, for Apple devices, click ```Settings```, click ```Details``` and there should be an associated MAC address. Please make sure to turn off ```Rotating``` on Private Wifi address since assigning a static IP requires a static MAC address. The MAC address should be the same regardless of the network one is connected to.
 
-One can also find their wifi MAC address by running ```ifconfig``` in a terminal and knowing which network interface matches wifi. Typically, wifi MAC addresses are interface: ```wlan0, wlp2s0, wlo1, ...``` though the interface can change depending on the device. Unfortunately, 
+One can also find their wifi MAC address by running ```ifconfig``` in a terminal and knowing which network interface matches wifi. Typically, wifi MAC addresses are interface: ```wlan0, wlp2s0, wlo1, ...``` though the interface can change depending on the device. 
 
 One can similarly obtain a Ethernet MAC address with the above methods if you would like a direct ethernet connection to the SRC network. Typically, with running ```ifconfig``` to checking interfaces, ethernet is ```eth0, en0, enp45s0, ...``` though sometimes it is confusing since ethernet interfaces can be used for wifi (ex: ```en0``` is wifi for my MacBook Air)
 
