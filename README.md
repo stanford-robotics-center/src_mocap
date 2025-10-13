@@ -9,6 +9,7 @@ Each MoCap Room has a KVM that allows a user to control the MoCap computer remot
 ![pic](/images/security.png "Security")
 
 The website should prompt for a user and password login. Please contact the SRC Lab Manager, Zen Yaskawa (zyaskawa@stanford.edu) for the username and password.
+![pic](/images/kvm_login.png "KVM login")
 ![pic](/images/tiny_pilot.png "Tiny Pilot")
 
 Open the ```Motive``` application to access the MoCap system.
