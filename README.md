@@ -7,6 +7,8 @@ Login/Auth for SRC MoCap Computers: Please ask SRC staff (Zen) for login / autho
 
 Each MoCap Room has a KVM that allows a user to control the MoCap computer remotely via web interface if connected to the local network (Ex: SRC, eduroam, Stanford, Stanford Visitor). To connect, enter the public domain name (i.e. ```SRC-KVM-Dance.stanford.edu```) into a web browser. Accept the security risk by clicking ```Advanced```, and ```Accept the Risk and Continue```.
 ![pic](/images/security.png "Security")
+
+The website should prompt for a user and password login. Please contact the SRC Lab Manager, Zen Yaskawa (zyaskawa@stanford.edu) for the username and password.
 ![pic](/images/tiny_pilot.png "Tiny Pilot")
 
 Open the ```Motive``` application to access the MoCap system.
