@@ -24,7 +24,7 @@ There are also multiple options to stream Optitrack data. Listed here are instru
 Note that the above only works if the device is registered with Stanford.
 
 > [!IMPORTANT]
-> We have noticed that streaming mocap data in different Bays/rooms at the same time causes both data streams to lag. Thus, please make sure to check if any other MoCap systems are streaming data, and disable data streaming when not using mocap.
+> We have noticed that streaming mocap data in different Bays/rooms at the same time causes both data streams to lag. Thus, please make sure to check if any other MoCap systems are streaming data, and disable as necessary. Additionally, when not using MoCap, please disable data streaming.
 
 ### Obtaining Wifi / Ethernet MAC address
 Definition of MAC address:
