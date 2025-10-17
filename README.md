@@ -25,6 +25,8 @@ Note that the above only works if the device is registered with Stanford.
 
 **IMPORTANT WARNING: We have noticed that streaming mocap data in different Bays/rooms at the same time causes both data streams to lag. Thus, please make sure to check if any other MoCap systems are streaming data, and disable data streaming when not using mocap.**
 
+<span style="color:blue">some *blue* text</span>.
+
 ### Obtaining Wifi / Ethernet MAC address
 Definition of MAC address:
 ```
