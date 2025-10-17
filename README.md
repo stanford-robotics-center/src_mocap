@@ -22,6 +22,7 @@ Ideally, it is best to stream data over the ```SRC``` network instead of directl
 There are also multiple options to stream Optitrack data. Listed here are instructions for [NatNetSDK](#setting-up-a-sample-client-or-python-client-with-natnetsdk) and [ROS2 VRPN](#setting-up-ros2-vrpn-mocap).
 
 Note that the above only works if the device is registered with Stanford.
+_IMPORTANT WARNING: We have noticed that streaming mocap data in different Bays/rooms at the same time causes both data streams to lag. Thus, please make sure to check if any other MoCap systems are streaming data, and disable data streaming when not using mocap._
 
 ### Obtaining Wifi / Ethernet MAC address
 Definition of MAC address:
