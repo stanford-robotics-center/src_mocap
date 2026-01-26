@@ -51,6 +51,12 @@ If the computer is connected to SRC wifi and one has [enabled streaming on Motiv
 
 One can select the correct stream by pressing the corresponding key/number in brackets next to the corresponding IP address to stream from. Note: Apparently Linux SDK is the fastest performing, followed by Windows and then the python API used for Mac.
 
+For Apple computers, use the following Python API: [Python API for Dance Demo](https://github.com/rhea-mal/optitrack_dance_demo/tree/dev/controller)
+Install on local machine using ```git clone https://github.com/rhea-mal/optitrack_dance_demo/tree/dev/controller```, navigate to ```drivers/PythonClient``` and adjust the client and server addresses appropriately in ```StreamDataSkeleton.py```. The server address should be the IP address of the computer that one is streaming from (as of 1/26/2026, ```172.24.68.67```) and the client address should be the IP address of your computer that should be assigned via the SRC network.
+![pic](/images/addresses_streamdataskeleton.png "Addresses for StreamDataSkeleton")
+
+Then run ```python3 StreamDataSkeleton.py```
+
 ### Setting up ROS2 VRPN MoCap
 Follow the instructions listed below for ROS2 VPRN MoCap: [vrpn_mocap](https://github.com/alvinsunyixiao/vrpn_mocap)
 
