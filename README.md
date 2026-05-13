@@ -71,6 +71,9 @@ Note that when you run
 
 If you get a ```VRPN Connection Bad``` message from running the command above, likely one will need to install netbase with ```sudo apt update; sudo apt install netbase``` as listed in the Github issues here: [link](https://github.com/alvinsunyixiao/vrpn_mocap/issues/5)
 
+### Creating Assests within Motive
+To create an asset within Motive, open the ```build``` tab on the left hand side of the screen.
+
 ## OceanWalk
 License: Motive Tracker\
 Public Domain: SRC-KVM-HRI.stanford.edu
