@@ -94,6 +94,10 @@ After making sure the number of required markers are seen/selected, and the user
 Successfully created assets should appear on the right hand side of the window. One can select the asset to be tracked by selecting or unselecting the checkbox for the corresponding asset:
 [link](https://docs.optitrack.com/motive/assets#assets-pane)
 
+As shown in the image, the assets that will be tracked are ```Skeleton 006``` and ```Skeleton 007```.
+
+![pic](/images/asset_pane.png "Asset Pane")
+
 # URLs and Information for SRC Bays
 ## OceanWalk
 License: Motive Tracker\
