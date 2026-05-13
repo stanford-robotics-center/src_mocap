@@ -82,7 +82,7 @@ Open the ```build``` tab on the left hand side of the screen. Then, you should b
 Successfully created assets should appear on the right hand side of the window. One can select the asset to be tracked by selecting or unselecting the checkbox for the corresponding asset:
 [link](https://docs.optitrack.com/motive/assets#assets-pane)
 
-# URLs and information for specific SRC Bays
+# URLs and Information for SRC Bays
 ## OceanWalk
 License: Motive Tracker\
 Public Domain: SRC-KVM-HRI.stanford.edu
