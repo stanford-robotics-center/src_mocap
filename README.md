@@ -83,11 +83,13 @@ Once you have pyhsically attached markers to either the rigid body or skeleton a
 Open the ```Builder``` tab on the left hand side of the screen. 
 
 ![pic](/images/Builder_image.png "Builder")
-Then, you should be able to create the rigid body or skeleton. For Skeletons, you need to make sure that the marker placement matches well to where the markers are physically on your body. Furthermore, there are times when all the required markers are not seen by the system - i.e. the number of markers seen/selected do not match the number of required markers in the Builder section
+
+Then, you should be able to create the rigid body or skeleton by selecting the correct mode in ```Type```. For Skeletons, you can also select a ```Template```, with a typical skeleton option being ```Baseline(41)``` that has 41 markers. There are other options which also include just upper or lower body, or hands. After selecting the desired ```Template```, You need to make sure that the marker placement matches well to where the markers are physically on your body. Furthermore, there are times when all the required markers are not seen by the system - i.e. the number of markers seen/selected do not match the number of required markers in the Builder section
 
 ![pic](/images/seen_markers.png "Seen Markers")
 
-In this case, you may have to adjust markers or move slightly to make sure that all markers are seen by the cameras. After making sure the number of required markers are seen, and the user is in the correct pose to create the Skeleton, you can click ```Create```.
+In this case, you may have to adjust markers or move slightly to make sure that all markers are seen by the cameras. Furthermore, under ```Pose```, you can select or know which pose that the user should be in when creating the asset. For example, if you select ```T-Pose```, then the user should have their arms extended to their sides and assume a T-Pose with their palms facing downward. ```A-Pose Downward``` and ```A-Pose Forward``` are other options one can assume poses for. 
+After making sure the number of required markers are seen/selected, and the user is in the correct pose to create the Skeleton, you can click ```Create```. The ```Create``` option will not show up in blue as selectable if you do not have the required number of markers available.
 
 Successfully created assets should appear on the right hand side of the window. One can select the asset to be tracked by selecting or unselecting the checkbox for the corresponding asset:
 [link](https://docs.optitrack.com/motive/assets#assets-pane)
