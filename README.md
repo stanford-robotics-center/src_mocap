@@ -73,7 +73,9 @@ If you get a ```VRPN Connection Bad``` message from running the command above, l
 
 ### Creating Assets within Motive
 Here is a video created by Optitrack on how to create Rigid Bodies and/or Skeletons: [link](https://docs.optitrack.com/motive/assets#video-quick-start-guide-asset-creation)
+
 To create an asset within Motive, determine whether you would like to create a Rigid Body, Skeleton or Trained Markerset: [link](https://docs.optitrack.com/motive/assets#overview)
+
 Once you have attached markers to either the rigid body or skeleton, you can right-click and drag to highlight the markers that you would like to create an asset for.
 Open the ```build``` tab on the left hand side of the screen. Then, you should be able to create the rigid body or skeleton. For Skeletons, you need to make sure that the marker placement matches well to where the markers are physically on your body. Furthermore, there are times when all the required markers are not seen by the system, so you may have to adjust markers or move slightly to make sure that all markers are seen by the cameras. After making sure the number of required markers are seen, and the user is in the correct pose to create the Skeleton, you can click ```Create```.
 
