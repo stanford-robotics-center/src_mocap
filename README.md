@@ -77,10 +77,14 @@ Here is a video created by Optitrack on how to create Rigid Bodies and/or Skelet
 To create an asset within Motive, determine whether you would like to create a Rigid Body, Skeleton or Trained Markerset: [link](https://docs.optitrack.com/motive/assets#overview)
 
 Once you have pyhsically attached markers to either the rigid body or skeleton and the markers are visible from the cameras, you can left-click and drag to highlight the markers that you would like to create an asset for. The highlighted markers should show up in green:
+
 ![pic](/images/green_markers.png "Green Markers")
+
 Open the ```Builder``` tab on the left hand side of the screen. 
+
 ![pic](/images/Builder_image.png "Builder")
 Then, you should be able to create the rigid body or skeleton. For Skeletons, you need to make sure that the marker placement matches well to where the markers are physically on your body. Furthermore, there are times when all the required markers are not seen by the system - i.e. the number of markers seen/selected do not match the number of required markers in the Builder section
+
 ![pic](/images/seen_markers.png "Seen Markers")
 
 In this case, you may have to adjust markers or move slightly to make sure that all markers are seen by the cameras. After making sure the number of required markers are seen, and the user is in the correct pose to create the Skeleton, you can click ```Create```.
