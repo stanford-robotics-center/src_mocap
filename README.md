@@ -71,7 +71,7 @@ Note that when you run
 
 If you get a ```VRPN Connection Bad``` message from running the command above, likely one will need to install netbase with ```sudo apt update; sudo apt install netbase``` as listed in the Github issues here: [link](https://github.com/alvinsunyixiao/vrpn_mocap/issues/5)
 
-### Creating Assets within Motive
+## Creating Assets within Motive
 Here is a video created by Optitrack on how to create Rigid Bodies and/or Skeletons: [link](https://docs.optitrack.com/motive/assets#video-quick-start-guide-asset-creation)
 
 To create an asset within Motive, determine whether you would like to create a Rigid Body, Skeleton or Trained Markerset: [link](https://docs.optitrack.com/motive/assets#overview)
@@ -82,6 +82,7 @@ Open the ```build``` tab on the left hand side of the screen. Then, you should b
 Successfully created assets should appear on the right hand side of the window. One can select the asset to be tracked by selecting or unselecting the checkbox for the corresponding asset:
 [link](https://docs.optitrack.com/motive/assets#assets-pane)
 
+# URLs and information for specific SRC Bays
 ## OceanWalk
 License: Motive Tracker\
 Public Domain: SRC-KVM-HRI.stanford.edu
